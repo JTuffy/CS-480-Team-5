@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.tuffy_josh.termproject.MainActivity">
+    android:orientation="vertical"
+    android:padding="10dp" >
 
-    <TextView
+    <Button
+        android:id="@+id/builderButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="Schedule Builder"
+        android:textStyle="bold"
+        android:width="200dp">
+    </Button>
+
+    <Button
+        android:id="@+id/classListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="Class List"
+        android:textStyle="bold"
+        android:width="200dp">
+    </Button>
+
+    <Button
+        android:id="@+id/savedSchedulesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="Saved Schedules"
+        android:textStyle="bold"
+        android:width="200dp">
+    </Button>
+
+
+
+
+</LinearLayout>
+
