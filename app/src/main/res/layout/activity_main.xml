@@ -14,7 +14,8 @@
         android:layout_marginRight="10dp"
         android:text="Schedule Builder"
         android:textStyle="bold"
-        android:width="200dp">
+        android:width="200dp"
+        android:onClick="scheduleBuilderClicked">
     </Button>
 
     <Button
