@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i1 = new Intent(this,builder.class);
         startActivity(i1);
     }
+
+    public void classListClicked(View v){
+        Intent i2 = new Intent(this, webviewclasses.class);
+        startActivity(i2);
+    }
 }

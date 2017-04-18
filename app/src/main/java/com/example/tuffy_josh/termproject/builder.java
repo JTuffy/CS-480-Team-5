@@ -2,6 +2,7 @@ package com.example.tuffy_josh.termproject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import  android.widget.ArrayAdapter;
 import  android.widget.ListView;
@@ -24,6 +25,7 @@ public class builder extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_builder);
+
 
         dataEntry = (EditText)findViewById(R.id.editText);
         ListView listview = (ListView)findViewById(R.id.list);
