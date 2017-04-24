@@ -41,19 +41,19 @@ public class scheduleViewer extends AppCompatActivity{
 
         String[] classes = {"CS350"};
 
-        cursor = db.query("LISTINGS", new String[]{
-                        "ClassID", "SectionID", "BlockPeriod"}, "ClassID", classes, null, null,
-                "ClassID");
+      //  cursor = db.query("LISTINGS", new String[]{
+     //                   "ClassID", "SectionID", "BlockPeriod"}, "ClassID", classes, null, null,
+        //        "ClassID");
 
 
-        while (cursor.moveToNext()) {
-            String classID = cursor.getString(cursor.getColumnIndex("ClassID"));
-            String sectionID = cursor.getString(cursor.getColumnIndex("SectionID"));
-            int blockPeriod = cursor.getInt(cursor.getColumnIndex("BlockPeriod"));
+     //   while (cursor.moveToNext()) {
+      //      String classID = cursor.getString(cursor.getColumnIndex("ClassID"));
+     //       String sectionID = cursor.getString(cursor.getColumnIndex("SectionID"));
+    //        int blockPeriod = cursor.getInt(cursor.getColumnIndex("BlockPeriod"));
 
-            Toast.makeText(this, classID + " " + sectionID + " " + Integer.toString(blockPeriod), Toast.LENGTH_LONG)
-                    .show();
-        }
+    //        Toast.makeText(this, classID + " " + sectionID + " " + Integer.toString(blockPeriod), Toast.LENGTH_LONG)
+  //                  .show();
+   //     }
         ;
 
         //db.execSQL("Select * From LISTINGS WHERE ClassID = 'CS350';");
