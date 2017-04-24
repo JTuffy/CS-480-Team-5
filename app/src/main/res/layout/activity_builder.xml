@@ -64,7 +64,9 @@
             android:text="Go"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/go" />
+            android:id="@+id/go"
+            android:background="@drawable/border"
+            android:textColor="@color/colorbg"/>
 
     </LinearLayout>
 

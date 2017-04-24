@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp">
 
     <Button
         android:id="@+id/builderButton"
@@ -15,7 +15,9 @@
         android:text="Schedule Builder"
         android:textStyle="bold"
         android:width="200dp"
-        android:onClick="scheduleBuilderClicked">
+        android:onClick="scheduleBuilderClicked"
+        android:background="@drawable/border"
+        android:textColor="@color/colorbg">
     </Button>
 
     <Button
@@ -27,7 +29,9 @@
         android:text="Class List"
         android:textStyle="bold"
         android:width="200dp"
-        android:onClick="classListClicked">
+        android:onClick="classListClicked"
+        android:background="@drawable/border"
+        android:textColor="@color/colorbg">
     </Button>
 
     <Button
@@ -38,9 +42,24 @@
         android:layout_marginRight="10dp"
         android:text="Saved Schedules"
         android:textStyle="bold"
-        android:width="200dp">
+        android:width="200dp"
+        android:background="@drawable/border"
+        android:textColor="@color/colorbg">
     </Button>
 
+    <Button
+        android:id="@+id/campusMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:text="Campus Map"
+        android:textStyle="bold"
+        android:width="200dp"
+        android:onClick="campusMapClicked"
+        android:background="@drawable/border"
+        android:textColor="@color/colorbg">
+    </Button>
 
 
 
