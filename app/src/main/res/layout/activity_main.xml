@@ -44,7 +44,8 @@
         android:textStyle="bold"
         android:width="200dp"
         android:background="@drawable/border"
-        android:textColor="@color/colorbg">
+        android:textColor="@color/colorbg"
+        android:onClick="scheduleViewerClicked">
     </Button>
 
     <Button

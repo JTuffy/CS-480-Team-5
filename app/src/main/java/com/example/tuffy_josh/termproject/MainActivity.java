@@ -28,7 +28,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void campusMapClicked(View v){
-        Intent i4 = new Intent(this, mapofcampus.class);
-        startActivity(i4);
+        Intent i3 = new Intent(this, mapofcampus.class);
+        startActivity(i3);
+    }
+
+    public void scheduleViewerClicked(View v){
+        Intent i5 = new Intent(this, scheduleViewer.class);
+        startActivity(i5);
     }
 }

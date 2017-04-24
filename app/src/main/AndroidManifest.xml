@@ -23,6 +23,7 @@
         <activity android:name=".webviewclasses"></activity>
         <activity android:name=".animation"></activity>
         <activity android:name=".mapofcampus"></activity>
+        <activity android:name=".scheduleViewer"></activity>
     </application>
 
 </manifest>
