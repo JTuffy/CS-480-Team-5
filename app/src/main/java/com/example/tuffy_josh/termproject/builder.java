@@ -5,6 +5,7 @@ import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -73,10 +74,12 @@ public class builder extends AppCompatActivity {
     public void goClicked(View v){
         Intent goIntent = new Intent(this, scheduleViewer.class);
 
-        for (int i = 1; i < arrayList.size(); i++){
+        for (int i = 0; i < arrayList.size(); i++){
             String course = arrayList.get(i);
-            String classNumber = "Class" + i;
+            int n = i + 1;
+            String classNumber = "Class" + n;
             goIntent.putExtra(classNumber,course);
+            Log.i("intent",course);
         }
         startActivity(goIntent);
     }

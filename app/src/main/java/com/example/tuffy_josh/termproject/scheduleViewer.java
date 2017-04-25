@@ -54,12 +54,23 @@ public class scheduleViewer extends AppCompatActivity {
 
             public void onClick(View v) {
 
+                Bundle extras = getIntent().getExtras();
+                String class1 = extras.getString("Class1");
+                String class2 = extras.getString("Class2");
+                String class3 = extras.getString("Class3");
+                String class4 = extras.getString("Class4");
+                String class5 = extras.getString("Class5");
+                String class6 = extras.getString("Class6");
+
                 ArrayList<String> classTest = new ArrayList<String>();
-                classTest.add("CS 350");
-                classTest.add("GB 310");
-                classTest.add("AC 311");
-                classTest.add("FI 307");
-                classTest.add("EXP 201");
+                classTest.add(class1);
+                classTest.add(class2);
+                classTest.add(class3);
+                classTest.add(class4);
+                classTest.add(class5);
+                if(class6 != null){
+                    classTest.add(class6);
+                }
 
                 doStuff(classTest);
             }

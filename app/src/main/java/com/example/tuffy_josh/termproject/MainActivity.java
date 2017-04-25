@@ -5,16 +5,35 @@ import android.support.v7.app.AppCompatActivity;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
+import  android.graphics.Typeface;
+import android.widget.Button;
+
+import static android.R.attr.type;
 
 public class MainActivity extends AppCompatActivity {
+    private Button builderButton;
+    private Button classListButton;
+    private Button savedSchedulesButton;
+    private Button campusMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        builderButton = (Button)findViewById(R.id.builderButton);
+        classListButton = (Button)findViewById(R.id.classListButton);
+        savedSchedulesButton = (Button)findViewById(R.id.savedSchedulesButton);
+        campusMap = (Button)findViewById(R.id.campusMap);
+
         Intent i4=new Intent (this, animation.class);
         startActivity(i4);
+
+        Typeface type = Typeface.createFromAsset(getAssets(), "fonts/arial.ttf");
+        builderButton.setTypeface(type);
+        classListButton.setTypeface(type);
+        savedSchedulesButton.setTypeface(type);
+        campusMap.setTypeface(type);
     }
 
     public void scheduleBuilderClicked(View v){
