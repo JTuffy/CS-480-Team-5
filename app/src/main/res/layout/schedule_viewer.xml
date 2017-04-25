@@ -2,7 +2,7 @@
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:alignmentMode="alignBounds"
-    android:columnCount="6"
+    android:columnCount="7"
     android:columnOrderPreserved="false"
     android:useDefaultMargins="true"
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:layout_columnSpan="6"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="Schedule Viewer"
         android:textColor="#ff000000"
         android:textSize="32sp"
@@ -27,65 +27,65 @@
 
     <TextView
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="Time"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="MON"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         />
 
     <TextView
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="TUE"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         />
 
     <TextView
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="WED"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         />
 
     <TextView
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="THU"
         android:textColor="#ff000000"
         android:id="@+id/textView"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"/>
 
     <TextView
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="FRI"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         />
 
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="8:00-9:20"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
@@ -93,20 +93,20 @@
         android:id="@+id/B1A"
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B1"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         />
 
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B2"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/B2A"
         />
@@ -114,10 +114,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B1"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/B1B"
         />
@@ -125,10 +125,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B3"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B3A"
         />
@@ -136,10 +136,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B2"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         android:id="@+id/B2B"
         />
@@ -147,20 +147,20 @@
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="9:30-10:50"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B4"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/B4A"
         />
@@ -168,10 +168,10 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B5"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/B5A"
         />
@@ -179,10 +179,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B4"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/B4B"
         />
@@ -190,10 +190,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B3"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B3B"
         />
@@ -201,10 +201,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B5"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         android:id="@+id/B5B"
         />
@@ -212,20 +212,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="11:00-12:20"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B6"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/B6A"
         />
@@ -233,10 +233,10 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B7"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/B7A"
         />
@@ -244,10 +244,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B10"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/B10A"
         />
@@ -255,10 +255,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B6"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B6B"
         />
@@ -266,10 +266,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B7"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         android:id="@+id/B7B"
         />
@@ -277,20 +277,20 @@
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="12:30-1:50"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B8"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/B8A"
         />
@@ -298,10 +298,10 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B9"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/B9A"
         />
@@ -309,10 +309,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B10"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/B10B"
         />
@@ -320,10 +320,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B8"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B8B"
         />
@@ -331,10 +331,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B9"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         android:id="@+id/B9B"
         />
@@ -342,20 +342,20 @@
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="2:00-3:20"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B11"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/B11A"
         />
@@ -363,20 +363,20 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="ACT"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="ACT"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
 
         />
@@ -384,10 +384,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B11"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B11B"
         />
@@ -395,10 +395,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B16"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         android:id="@+id/B16A"
         />
@@ -406,20 +406,20 @@
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="3:30-4:50"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B12"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/B12A"
         />
@@ -427,10 +427,10 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B13"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/B13A"
         />
@@ -438,10 +438,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B12"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/B12B"
         />
@@ -449,10 +449,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B13"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B13B"
         />
@@ -460,10 +460,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B16"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="5"
         android:id="@+id/B16B"
         />
@@ -471,20 +471,20 @@
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="5:00-6:20"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B14"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/B14A"
         />
@@ -492,10 +492,10 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B15"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/B15A"
         />
@@ -503,10 +503,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B14"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/B14B"
         />
@@ -514,10 +514,10 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="B15"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/B15B"
         />
@@ -525,20 +525,20 @@
     <TextView
         android:layout_width="60dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="6:30-9:00"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="0"
         />
 
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="ME"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="1"
         android:id="@+id/ME"
         />
@@ -546,10 +546,10 @@
     <TextView
         android:layout_width="37dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="TE"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="2"
         android:id="@+id/TE"
         />
@@ -557,10 +557,10 @@
     <TextView
         android:layout_width="35dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="8dp"
         android:text="WE"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="3"
         android:id="@+id/WE"
         />
@@ -568,13 +568,18 @@
     <TextView
         android:layout_width="36dp"
         android:layout_columnSpan="1"
-        android:layout_margin="10dp"
+        android:layout_margin="4dp"
         android:text="TE"
         android:textColor="#ff000000"
-        android:textSize="12dp"
+        android:textSize="10dp"
         android:layout_column="4"
         android:id="@+id/THE"
         />
 
-
+    <Button
+        android:layout_column="1"
+        android:layout_columnSpan="6"
+        android:text="Test"
+        android:id="@+id/generate">
+    </Button>
 </GridLayout>

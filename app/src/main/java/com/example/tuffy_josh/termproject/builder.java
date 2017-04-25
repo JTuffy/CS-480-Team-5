@@ -1,5 +1,6 @@
 package com.example.tuffy_josh.termproject;
 
+import android.content.Intent;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -70,7 +71,14 @@ public class builder extends AppCompatActivity {
     }
 
     public void goClicked(View v){
+        Intent goIntent = new Intent(this, scheduleViewer.class);
 
+        for (int i = 1; i < arrayList.size(); i++){
+            String course = arrayList.get(i);
+            String classNumber = "Class" + i;
+            goIntent.putExtra(classNumber,course);
+        }
+        startActivity(goIntent);
     }
 
     @Override
@@ -80,14 +88,21 @@ public class builder extends AppCompatActivity {
 
             case 1:
                 if (arrayList.size() < 6) {
-
                     String newEntry = dataEntry.getText().toString();
-                    newEntry = newEntry.toUpperCase();
-                    arrayList.add(newEntry);
-                    arrayAdapter.notifyDataSetChanged();
-                    dataEntry.setText("");
-                    String addSpeak = newEntry + " was added";
-                    speak(addSpeak);
+                    if (newEntry.contains(" ")){
+                        dataEntry.setText("Please don't include a space");
+                    }
+                    else {
+                        newEntry = newEntry.toUpperCase();
+                        String numberEntry = newEntry.substring(newEntry.length() - 3, newEntry.length());
+                        String classCodeEntry = newEntry.substring(0, newEntry.length() - 3);
+                        String finalClass = classCodeEntry + " " + numberEntry;
+                        arrayList.add(finalClass);
+                        arrayAdapter.notifyDataSetChanged();
+                        dataEntry.setText("");
+                        String addSpeak = newEntry + " was added";
+                        speak(addSpeak);
+                    }
                 }
             return true;
 
