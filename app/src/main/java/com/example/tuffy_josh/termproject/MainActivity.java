@@ -13,7 +13,7 @@ import static android.R.attr.type;
 public class MainActivity extends AppCompatActivity {
     private Button builderButton;
     private Button classListButton;
-    private Button savedSchedulesButton;
+
     private Button campusMap;
 
     @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         builderButton = (Button)findViewById(R.id.builderButton);
         classListButton = (Button)findViewById(R.id.classListButton);
-        savedSchedulesButton = (Button)findViewById(R.id.savedSchedulesButton);
+
         campusMap = (Button)findViewById(R.id.campusMap);
 
         Intent i4=new Intent (this, animation.class);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Typeface type = Typeface.createFromAsset(getAssets(), "fonts/arial.ttf");
         builderButton.setTypeface(type);
         classListButton.setTypeface(type);
-        savedSchedulesButton.setTypeface(type);
+
         campusMap.setTypeface(type);
     }
 
@@ -51,8 +51,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i3);
     }
 
-    public void scheduleViewerClicked(View v){
-        Intent i5 = new Intent(this, scheduleViewer.class);
-        startActivity(i5);
-    }
+
 }

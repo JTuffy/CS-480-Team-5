@@ -17,10 +17,13 @@
         android:width="200dp"
         android:onClick="scheduleBuilderClicked"
         android:background="@drawable/border"
-        android:textColor="@color/colorbg">
+        android:textColor="@color/colorbg"
+
+        android:layout_marginTop="80dp">
     </Button>
 
     <Button
+
         android:id="@+id/classListButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,19 +37,7 @@
         android:textColor="@color/colorbg">
     </Button>
 
-    <Button
-        android:id="@+id/savedSchedulesButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginRight="10dp"
-        android:text="Saved Schedules"
-        android:textStyle="bold"
-        android:width="200dp"
-        android:background="@drawable/border"
-        android:textColor="@color/colorbg"
-        android:onClick="scheduleViewerClicked">
-    </Button>
+
 
     <Button
         android:id="@+id/campusMap"
